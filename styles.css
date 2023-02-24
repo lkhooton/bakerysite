@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
+
 body, html {
   height: 100%;
   margin: 0;
@@ -6,7 +10,27 @@ body, html {
   font-family: 'Times New Roman', Times, serif;
 }
 .nav {
-  
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.501);
+  height: 40px;
+  padding: 30px;
+}
+li {
+  display: inline;
+  padding: 10px;
+  top: 50%;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+#company_name {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  float: left;
+  font-family: 'Zeyada', cursive;
+  font-size: 40px;
 }
 .intro {
   background-image: url('images/rusticbread.jpeg'); 
