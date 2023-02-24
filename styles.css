@@ -3,8 +3,11 @@ body, html {
   margin: 0;
   padding: 0;
   background-color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
-
+.nav {
+  
+}
 .intro {
   background-image: url('images/rusticbread.jpeg'); 
   height: 100%;
@@ -14,5 +17,33 @@ body, html {
   position: relative;
   text-align: center;
   color: white;
-  font-family: Lobster;
+  letter-spacing: 5px;
+}
+h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+}
+
+p{
+  position: absolute;
+  top:60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+button {
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  background-color: rgba(250, 235, 215, 0.478);
+  color: white;
+  border: dotted;
+  padding: 10px;
 }
