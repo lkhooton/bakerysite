@@ -71,3 +71,29 @@ button {
   border: dotted;
   padding: 10px;
 }
+
+.cakes {
+  background-image: url('images/grunge-vintage-old-paper-background.jpg'); 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.cakes_left {
+  padding-top: 50px;
+  text-align: center;
+  width: 50%;
+}
+#art_cakes {
+  font-size: 50px;
+  margin-bottom: -2px;
+  color: rgb(83, 83, 83);
+}
+#memories {
+  color:rgba(116, 71, 11, 0.478);
+  margin-top: 0px;
+}
+#cake_p {
+  padding: 0px 100px 0px 100px;
+}
