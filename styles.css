@@ -86,6 +86,9 @@ button {
   text-align: center;
   width: 50%;
 }
+.cakes_right{
+
+}
 #bread_break_img{
 border-radius: 50%;
 width: 100px;
@@ -133,4 +136,9 @@ margin-top: -50px;
 #unique_creations{
   font-family: 'Zeyada', cursive;
   font-size: 40px;
+}
+
+.square_img{
+  width: 200px;
+  height: 200px;
 }
