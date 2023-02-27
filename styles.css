@@ -71,6 +71,16 @@ button {
   border: dotted;
   padding: 10px;
 }
+#bread_break_img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  z-index: 1;
+  }
 
 /* CAKES SECTION STYLING */
 .cakes {
@@ -82,25 +92,17 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+  }
+  
 .cakes_left {
   padding-top: 50px;
   text-align: center;
   width: 50%;
 }
 .cakes_right{
+  
+}
 
-}
-#bread_break_img{
-border-radius: 50%;
-width: 100px;
-height: 100px;
-position: absolute;
-left: 50%;
-margin-left: -50px;
-margin-top: -50px;
-z-index: 1;
-}
 #art_cakes {
   font-size: 50px;
   margin-bottom: -2px;
@@ -115,14 +117,13 @@ z-index: 1;
   letter-spacing: 5px;
 }
 #chef {
-  padding-top: 50px;
   font-size: 30px;
   color: rgb(83, 83, 83);
 }
 .chef_info{
   display: flex;
   align-items: center;
-  padding-bottom: 25px;
+  justify-content: center;
 }
 #chef_left{
   padding-left: 100px;
@@ -134,13 +135,14 @@ z-index: 1;
 }
 #chef_img{
   width: 125px;
+  padding: 25px;
 }
 #unique_creations{
   font-family: 'Zeyada', cursive;
   font-size: 40px;
 }
-
 .square_img{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
