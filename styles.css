@@ -86,14 +86,14 @@ button {
 .cakes {
   display: flex;
   align-items: center;
-  background-image: url('images/grunge-vintage-old-paper-background.jpg'); 
+  background-image: url('images/tanbackground.jpeg'); 
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   }
-  
+
 .cakes_left {
   padding-top: 50px;
   text-align: center;
