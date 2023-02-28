@@ -105,6 +105,8 @@ button {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   margin: 0 auto;
+  row-gap: 10px;
+  grid-gap: 10px;
 }
 
 #art_cakes {
@@ -114,7 +116,6 @@ button {
 }
 #memories {
   color:rgba(116, 71, 11, 0.478);
-  margin-top: 0px;
 }
 #cake_p {
   padding: 0px 100px 0px 100px;
@@ -123,6 +124,7 @@ button {
 #chef {
   font-size: 30px;
   color: rgb(83, 83, 83);
+  margin-bottom: -15px;
 }
 .chef_info{
   display: flex;
@@ -188,4 +190,19 @@ button {
 .ready_in{
   background: rgba(238, 230, 220, 0.581);
   z-index: 1;
+}
+
+/* BREAKFAST SECTION STYLING */
+.breakfast {
+  background-image: url('images/darkbreakfast.jpeg'); 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.breakfast_menu {
+  width: 300px;
+  border: solid red;
 }
