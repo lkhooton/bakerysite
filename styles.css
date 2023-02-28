@@ -99,8 +99,12 @@ button {
   text-align: center;
   width: 50%;
 }
+/* THIS NEEDS WORK, NOT RESPONSIVE */
 .cakes_right{
-  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  margin: 0 auto;
 }
 
 #art_cakes {
@@ -145,4 +149,43 @@ button {
   width: 300px;
   height: 300px;
   object-fit: cover;
+}
+
+/* PANCAKE SECTION STYLING */
+.pancakes {
+  background-image: url('images/bakingtools.jpeg'); 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+.pancake_overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top:15%;
+  text-align: center;
+}
+#pancakes_img {
+  width: 600px;
+}
+.text {
+  background: rgba(238, 230, 220, 0.581);
+  padding: 72px;
+}
+#tasty {
+  font-size: 50px;
+  margin-bottom: -2px;
+  color: rgb(83, 83, 83);
+}
+#seasonal, #ready  {
+  color:rgba(116, 71, 11, 0.478);
+}
+.ready_in{
+  background: rgba(238, 230, 220, 0.581);
+  
 }
