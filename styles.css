@@ -187,5 +187,5 @@ button {
 }
 .ready_in{
   background: rgba(238, 230, 220, 0.581);
-  
+  z-index: 1;
 }
