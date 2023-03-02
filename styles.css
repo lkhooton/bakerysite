@@ -203,6 +203,11 @@ button {
   color: white;
 }
 .breakfast_menu {
-  width: 300px;
+  width: 50%;
+  padding-top: 150px;
+  text-align: center;
   border: solid red;
+}
+#breakfast_title {
+  font-size: 45px;
 }
