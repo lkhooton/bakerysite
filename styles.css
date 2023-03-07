@@ -115,7 +115,8 @@ button {
   color: rgb(83, 83, 83);
 }
 #memories {
-  color:rgba(116, 71, 11, 0.478);
+  color:rgb(136, 99, 49);
+  text-style: italic;
 }
 #cake_p {
   padding: 0px 100px 0px 100px;
@@ -212,7 +213,7 @@ button {
 #breakfast_title {
   font-size: 45px;
 }
-#am_open{
+#am_open, .price {
   color:rgb(248, 178, 86);
   letter-spacing: 2px;
   margin-top: -25px;
@@ -228,11 +229,6 @@ button {
   letter-spacing: 2px;
 }
 
-.price {
-  font-size: 20px;
-  color:rgb(248, 178, 86);
-}
-
 /* PAPERS SECTION STYLING */
 
 
@@ -240,4 +236,28 @@ button {
 /* SANDWICH SECTION STYLING */
 .sandwich {
   background-color: antiquewhite;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.small_round{
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+}
+.round_pic_title {
+  font-size: 20px;
+  color:rgb(136, 99, 49);
+}
+#round_p {
+  color:rgb(136, 99, 49);
+  font-style: italic;
+}
+#round_images_left{
+  width: 20%;
+}
+#sandwich{
+  font-size: 50px;
+  color: rgba(83, 83, 83);
 }
