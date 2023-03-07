@@ -188,6 +188,7 @@ button {
   color:rgba(116, 71, 11, 0.478);
 }
 .ready_in{
+  position: absolute;
   background: rgba(238, 230, 220, 0.581);
   z-index: 1;
 }
