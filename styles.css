@@ -250,6 +250,7 @@ justify-content: space-evenly;
   border-radius: 50%;
   width: 125px;
   height: 125px;
+  object-fit: cover;
 }
 .round_pic_title {
   font-size: 20px;
@@ -269,8 +270,11 @@ justify-content: space-evenly;
 #big_sandwich{
   width: 500px;
   height: 500px;
+  border: solid white 10px;
 }
 #sandwich_img{
+object-fit: cover;
 width:500px;
 height: 500px;
+
 }
