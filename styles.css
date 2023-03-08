@@ -116,7 +116,7 @@ button {
 }
 #memories {
   color:rgb(136, 99, 49);
-  text-style: italic;
+  font-style: italic;
 }
 #cake_p {
   padding: 0px 100px 0px 100px;
@@ -235,11 +235,16 @@ button {
 
 /* SANDWICH SECTION STYLING */
 .sandwich {
-  background-color: antiquewhite;
   text-align: center;
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
+  background-color:  rgb(243,241,233);
+}
+.grid{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
 }
 .small_round{
   border-radius: 50%;
@@ -261,8 +266,11 @@ button {
   font-size: 50px;
   color: rgba(83, 83, 83);
 }
-
+#big_sandwich{
+  width: 500px;
+  height: 500px;
+}
 #sandwich_img{
-  width: 200px;
-
+width:500px;
+height: 500px;
 }
