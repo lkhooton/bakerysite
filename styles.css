@@ -276,5 +276,19 @@ justify-content: space-evenly;
 object-fit: cover;
 width:500px;
 height: 500px;
+}
 
+/* FOOTER STYLING */
+
+footer {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.nav_bottom {
+  display: inline;
+  padding-bottom: 30px;
+
+}
+.nav_dark {
+  color: black;
 }
